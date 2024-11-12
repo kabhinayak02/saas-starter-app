@@ -45,6 +45,7 @@ export default function AdminDashboard() {
         //   description: "Failed to fetch user data. Please try again.",
         //   variant: "destructive",
         // });
+            console.log(error)
       } finally {
         setIsLoading(false);
       }
@@ -89,6 +90,7 @@ export default function AdminDashboard() {
     //     description: "Failed to update subscription. Please try again.",
     //     variant: "destructive",
     //   });
+        console.log(error);
     }
   };
 
@@ -116,6 +118,7 @@ export default function AdminDashboard() {
     //     description: "Failed to update todo. Please try again.",
     //     variant: "destructive",
     //   });
+        console.log(error)
     }
   };
 
@@ -139,6 +142,7 @@ export default function AdminDashboard() {
     //     description: "Failed to delete todo. Please try again.",
     //     variant: "destructive",
     //   });
+        console.log(error);
     }
   };
 

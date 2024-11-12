@@ -22,7 +22,7 @@ export async function GET(req: NextRequest) {
             where: {
                 userId,
                 title: {
-                    contains: "search",
+                    contains: search,
                     mode: "insensitive",
 
                 }

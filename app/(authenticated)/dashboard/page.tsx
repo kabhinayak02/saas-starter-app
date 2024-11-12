@@ -45,7 +45,7 @@ const Dashboard = () => {
     useEffect(() => {
         fetchTodos(1)
         fetchSubscriptionStatus()
-    }, [])
+    }, [fetchTodos])
 
     const fetchSubscriptionStatus = async () => {
         const response = await fetch("/api/subscription")
